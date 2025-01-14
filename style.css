@@ -1,0 +1,28 @@
+
+h1
+{
+  font-family: "Caveat", serif;
+
+}
+h2
+{
+  font-family: Caveat, serif; 
+  font-size: 3rem;
+}
+body
+{
+  font-family: "Poppins", serif;
+}
+/* Remove square background and border */
+.icon-square {
+  background: none !important;  /* Remove any background color */
+  border: none !important;      /* Remove any border */
+  border-radius: 0 !important;  /* Remove any rounded corners */
+  box-shadow: none !important;  /* Remove any shadow */
+  padding: 0 !important;        /* Remove padding */
+  width: auto !important;       /* Allow width to fit the icon */
+  height: auto !important;      /* Allow height to fit the icon */
+  display: inline-flex !important; /* Ensure the icon displays inline without layout issues */
+}
+
+
